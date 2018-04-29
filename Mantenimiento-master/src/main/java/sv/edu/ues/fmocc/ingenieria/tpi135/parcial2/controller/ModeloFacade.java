@@ -16,7 +16,7 @@ import sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Modelo;
 @Stateless
 public class ModeloFacade extends AbstractFacade<Modelo> implements ModeloFacadeLocal {
 
-    @PersistenceContext(unitName = "MantPU")
+    @PersistenceContext(unitName = "mantPU")
     private EntityManager em;
 
     @Override

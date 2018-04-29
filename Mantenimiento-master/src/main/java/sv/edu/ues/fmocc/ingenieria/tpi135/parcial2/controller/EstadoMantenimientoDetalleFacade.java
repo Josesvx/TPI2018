@@ -17,7 +17,7 @@ import sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.EstadoMantenimiento
 @Stateless
 public class EstadoMantenimientoDetalleFacade extends AbstractFacade<EstadoMantenimientoDetalle> implements EstadoMantenimientoDetalleFacadeLocal {
 
-    @PersistenceContext(unitName = "MantPU")
+    @PersistenceContext(unitName = "mantPU")
     private EntityManager em;
 
     @Override

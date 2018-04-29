@@ -17,7 +17,7 @@ import sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.OrdenTrabajo;
 @Stateless
 public class OrdenTrabajoFacade extends AbstractFacade<OrdenTrabajo> implements OrdenTrabajoFacadeLocal {
 
-    @PersistenceContext(unitName = "MantPU")
+    @PersistenceContext(unitName = "mantPU")
     private EntityManager em;
 
     @Override

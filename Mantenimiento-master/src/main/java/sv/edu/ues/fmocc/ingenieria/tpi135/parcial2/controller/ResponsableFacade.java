@@ -17,7 +17,7 @@ import sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Responsable;
 @Stateless
 public class ResponsableFacade extends AbstractFacade<Responsable> implements ResponsableFacadeLocal {
 
-    @PersistenceContext(unitName = "MantPU")
+    @PersistenceContext(unitName = "mantPU")
     private EntityManager em;
 
     @Override

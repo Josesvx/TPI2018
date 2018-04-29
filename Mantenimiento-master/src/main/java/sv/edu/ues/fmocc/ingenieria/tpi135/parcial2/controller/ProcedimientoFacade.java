@@ -17,7 +17,7 @@ import sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Procedimiento;
 @Stateless
 public class ProcedimientoFacade extends AbstractFacade<Procedimiento> implements ProcedimientoFacadeLocal {
 
-    @PersistenceContext(unitName = "MantPU")
+    @PersistenceContext(unitName = "mantPU")
     private EntityManager em;
 
     @Override

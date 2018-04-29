@@ -17,7 +17,7 @@ import sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Parte;
 @Stateless
 public class ParteFacade extends AbstractFacade<Parte> implements ParteFacadeLocal {
 
-    @PersistenceContext(unitName = "MantPU")
+    @PersistenceContext(unitName = "mantPU")
     private EntityManager em;
 
     @Override

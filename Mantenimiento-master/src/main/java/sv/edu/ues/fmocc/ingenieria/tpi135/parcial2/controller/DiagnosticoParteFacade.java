@@ -18,7 +18,7 @@ import sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.DiagnosticoParte;
 @Stateless
 public class DiagnosticoParteFacade extends AbstractFacade<DiagnosticoParte> implements DiagnosticoParteFacadeLocal {
 
-    @PersistenceContext(unitName = "MantPU")
+    @PersistenceContext(unitName = "mantPU")
     private EntityManager em;
 
     @Override

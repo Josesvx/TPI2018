@@ -16,7 +16,7 @@ import sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Marca;
 @Stateless
 public class MarcaFacade extends AbstractFacade<Marca> implements MarcaFacadeLocal {
 
-    @PersistenceContext(unitName = "MantPU")
+    @PersistenceContext(unitName = "mantPU")
     private EntityManager em;
 
     @Override

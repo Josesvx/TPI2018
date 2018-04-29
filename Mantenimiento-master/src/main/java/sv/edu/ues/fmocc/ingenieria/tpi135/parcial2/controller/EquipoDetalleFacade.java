@@ -18,7 +18,7 @@ import sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.EquipoDetalle;
 @Stateless
 public class EquipoDetalleFacade extends AbstractFacade<EquipoDetalle> implements EquipoDetalleFacadeLocal {
 
-    @PersistenceContext(unitName = "MantPU")
+    @PersistenceContext(unitName = "mantPU")
     private EntityManager em;
 
     @Override

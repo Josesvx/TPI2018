@@ -18,7 +18,7 @@ import sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Calendario;
 @Stateless
 public class CalendarioFacade extends AbstractFacade<Calendario> implements CalendarioFacadeLocal {
 
-    @PersistenceContext(unitName = "MantPU")
+    @PersistenceContext(unitName = "mantPU")
     private EntityManager em;
 
     @Override
