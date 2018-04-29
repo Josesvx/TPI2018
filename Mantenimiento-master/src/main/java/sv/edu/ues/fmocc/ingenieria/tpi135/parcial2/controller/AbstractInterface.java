@@ -31,4 +31,6 @@ public interface AbstractInterface<T> {
 
     public int count();
     
+    public List<T> findByNameLike(String nombre,int first,int pagesize);
+    
 }

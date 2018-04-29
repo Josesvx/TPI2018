@@ -12,7 +12,7 @@ import sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.CalendarioExcepcion
 
 /**
  *
- * @author rcarlos
+ * @author Aviles
  */
 @Local
 public interface CalendarioExcepcionFacadeLocal extends AbstractInterface<CalendarioExcepcion> {
