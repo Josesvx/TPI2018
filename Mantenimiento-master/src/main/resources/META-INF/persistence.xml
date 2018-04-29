@@ -3,6 +3,28 @@
   <persistence-unit name="mantPU" transaction-type="JTA">
     <jta-data-source>jdbc/TPIdataSource</jta-data-source>
     <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.CalendarioExcepcion</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Calendario</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Diagnostico</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.DiagnosticoParte</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Equipo</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.EquipoDetalle</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Estado</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.EstadoMantenimientoDetalle</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.MantenimientoDetalle</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Marca</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Modelo</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.OrdenTrabajo</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Parte</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Paso</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Prioridad</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Procedimiento</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Responsable</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Solicitud</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.SubTipoMantenimiento</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.TipoMantenimiento</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.TipoParte</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.TipoResponsable</class>
+    <class>sv.edu.ues.fmocc.ingenieria.tpi135.parcial2.entidades.Unidad</class>
     <exclude-unlisted-classes>true</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.schema-generation.database.action" value="create"/>
